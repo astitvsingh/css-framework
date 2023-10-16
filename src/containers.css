@@ -1,0 +1,10 @@
+/* Set padding for elements with class .container and .panel */
+.container,
+.panel {
+  /* Padding values are specified in the format: top/bottom left/right */
+  
+  /* Padding for top and bottom: 0.01em, which is 0.01 times the base font size (16px) */
+  /* To calculate the pixel equivalent: 0.01em * 16px = 0.16px */
+  padding: 0.01em 16px;
+  /* Padding for left and right: 16px in pixels (absolute value) */
+}
